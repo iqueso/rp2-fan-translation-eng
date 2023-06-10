@@ -1,0 +1,27 @@
+# Declare files that will always have CRLF line endings on checkout.
+saves/*.txt text eol=crlf
+
+# Standardize line endings (should keep everything from breaking hopefully!)
+# This file is subject to change. I'm not entirely sure what to note everything as but the main goal is to keep game files intact.
+
+# This is just to keep shell scripts intact if we use any kind of bash scripting
+*.sh text eol=lf
+
+# Game text files, notes, etc.
+*.ini text eol=crlf
+*.txt text eol=crlf
+
+# Director files
+*.CST binary
+*.CXT binary
+*.DIR binary
+*.DXR binary
+*.ORG binary
+
+# Game executable (probably not necessary)
+*.EXE binary
+
+# Image files
+*.bmp binary
+*.png binary
+*.ico binary
