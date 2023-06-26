@@ -390,7 +390,6 @@ Folder structure mirrors that of the game.
     - RP2.DXR
     - SELCTSTF.DXR
     - START.DXR
-|
 - NANK
     - ITEMNANK.CXT
     - NANK.DXR
