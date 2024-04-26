@@ -1,0 +1,76 @@
+AFMES.CXT Transcription: 
+
+AFMES.cxt_1
+太陽の地だ！
+
+AFMES.cxt_2
+遺せきの地だ！
+
+AFMES.cxt_3
+火の地だ！
+
+AFMES.cxt_4
+水の地だ！
+
+AFMES.cxt_5
+生命の地だ！
+
+AFMES.cxt_6
+土の地だ！
+
+AFMES.cxt_7
+これは火の地で手に入れた　「火の石」
+
+AFMES.cxt_8
+これは土の地で手に入れた　「土の石」
+
+AFMES.cxt_9
+これは生命の国で手に入れた　「生命の石」
+
+AFMES.cxt_10
+これは水の地で手に入れた　「水の石」
+
+AFMES.cxt_11
+これは太陽の地で手に入れた　「太陽の石」
+
+AFMES.cxt_12
+ああ！　「大自然の鍵」　だ！
+
+AFMES.cxt_13
+大自然の大陸の宝もの、　大自然の鍵を手に入れた。
+
+AFMES.cxt_60
+大自然の大陸
+
+AFMES.cxt_71
+船着きば
+
+AFMES.cxt_72
+幻想の島
+
+AFMES.cxt_73
+動物がいっぱいの国
+
+AFMES.cxt_74
+サバンナ
+
+AFMES.cxt_75
+あつい村
+
+AFMES.cxt_76
+遺せきの地
+
+AFMES.cxt_77
+火の遺せき
+
+AFMES.cxt_78
+土の遺せき
+
+AFMES.cxt_79
+生命の遺せき
+
+AFMES.cxt_80
+太陽の遺せき
+
+AFMES.cxt_81
+みずの遺せき
