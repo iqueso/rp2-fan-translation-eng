@@ -1,0 +1,1 @@
+on exitFrame  global dma,dmc    set dmb = 120      startTimer  repeat with i = 1 to 3    set the puppet of sprite i to TRUE  end repeat  repeat with i = 12 to 15    set the puppet of sprite i = TRUE    set the visible of sprite i to TRUE  end repeat  end
