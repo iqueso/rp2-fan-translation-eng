@@ -14,14 +14,14 @@ Released November/December 1997, Developed by OutSide Directors Company, publish
 # Credits
 
 Nosamu - Director hacking
-
-Xen - Image translations
+Xen - Image edits/translations
+Elphive - Image edits/translations
 
 
 # Updates
 
 **June 10, 2023:** Repo created, first cast edits/translations being added to game.
-
+**April 28, 2024:** First cast replaced using cast-replacement script. More frequent updates to come (hopefully).
 
 # Mentions
 
