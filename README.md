@@ -23,6 +23,7 @@ Elphive - Image edits/translations
 # Updates
 
 **June 10, 2023:** Repo created, first cast edits/translations being added to game.
+
 **April 28, 2024:** First cast replaced using cast-replacement script. More frequent updates to come (hopefully).
 
 # Mentions
