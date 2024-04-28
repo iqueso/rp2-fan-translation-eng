@@ -1,0 +1,126 @@
+on startMovie
+  
+  set i = 0
+  
+  --  set source and target cast members here
+  set source_cast_name = "NANKMES_copy"
+  set target_cast_name = "NANKMES"
+  
+  
+  
+  -- loop over cast members of target/source cast
+  repeat while (i < the number of members of castLib source_cast_name)
+    
+    -- index for cast member
+    set cast_index = i + 1
+    
+    
+    
+    
+    -- Read and replace regpoints from source cast to target cast
+    put "Source cast regPoint: " && the regPoint of member cast_index of castLib source_cast_name
+    put "Target cast regPoint: " && the regPoint of member cast_index of castLib target_cast_name
+    put
+
+    
+    set source_regpoint = the regPoint of member cast_index of castLib source_cast_name
+    set target_regpoint = the regPoint of member cast_index of castLib target_cast_name
+
+    -- Get locH and locV of source and target cast
+    -- We need to use the loc values for this since we can't parse regpoint values
+
+    set source_regpoint_x = the locH of source_regpoint
+    set source_regpoint_y = the locV of source_regpoint
+    
+    set target_regpoint_x = the locH of target_regpoint
+    set target_regpoint_y = the locV of target_regpoint
+
+
+    put "Source loc values : locH (regpoint_x): " && source_regpoint_x && " , locV (regpoint_y): " && source_regpoint_y && "."
+    put "Target loc values: locH (regpoint_x): " && target_regpoint_x && " , locV (regpoint_y): " && target_regpoint_y && "."
+    
+
+    -- If the regpoints from source to target is not equal, set target regpoint to source regpoint
+
+    if ((source_regpoint_x <> target_regpoint_x) or (source_regpoint_y <> target_regpoint_y)) then
+      put "Applying regPoint from source to target with adjustments to cast member:" && cast_index && " name: " && the name of member cast_index of castLib source_cast_name
+      put
+      -- set target regPoint to source regPoint 
+      
+      -- set the regPoint of member cast_index of castLib target_cast_name to point(source_regpoint_x, source_regpoint_y)
+      set the regPoint of member cast_index of castLib target_cast_name to source_regpoint
+    else
+      put "Regpoints are either not valid or are equal. Not setting regpoints."
+      put
+    end if
+
+
+
+    
+    -- find source dimensions
+    set source_width = the width of member cast_index of castLib source_cast_name
+    set source_height = the width of member cast_index of castLib target_cast_name
+    
+    put "Source member width: " && the width of member cast_index of castLib source_cast_name && "px"
+    put "Source member height: " && the height of member cast_index of castLib source_cast_name && "px"
+    
+    -- find target dimensions
+    set target_width = the width of member cast_index of castLib target_cast_name
+    set target_height  = the width of member cast_index of castLib target_cast_name
+    
+    put "Target member width: " && the width of member cast_index of castLib source_cast_name && "px"
+    put "Target member height: " && the height of member cast_index of castLib source_cast_name && "px"
+    put
+    
+    
+    
+    -- Compare target dimensions and see if we need to do some math
+    if (source_width <> target_width) or (source_height <> target_height) then
+      put "Source dimensions are not equal"
+      
+      -- math to calculate new regPoint 
+      set new_target_regpoint_x = (target_width / 2)
+      set new_target_regpoint_y = source_regpoint_y + (target_height - source_height) / 2
+      set new_target_regpoint = point(new_target_regpoint_x, new_target_regpoint_y)     
+      
+      -- Set the new regpoint
+      
+      put "New regpoint for target: " && new_target_regpoint
+      set the regPoint of member cast_index of castLib target_cast_name to new_target_regpoint
+    else
+      put "Dimensions of source and target are equal.. not modifying regpoints any further."
+    end if 
+    put
+    
+    
+    
+    -- put target regPoint to verify correct regPoint
+    put "Target regPoint modified for member: " && cast_index && " name: " && the name of member cast_index of castLib source_cast_name
+    put "Source regPoint: " && the regPoint of member cast_index of castLib source_cast_name
+    put "Target regPoint: " && the regPoint of member cast_index of castLib target_cast_name
+    put
+    
+    
+    
+    -- Set source cast name to target cast name here
+    put "Source cast name: " && the name of member cast_index of castLib source_cast_name
+    put "Target cast name: " && the name of member cast_index of castLib target_cast_name
+    
+    -- Set the target cast member's name to the source cast member's name
+    
+    put "Renaming target cast member name to source cast member name." 
+    set the name of member cast_index of castLib target_cast_name to the name of member cast_index of castLib source_cast_name
+    put    
+    
+    put "Source cast name: " && the name of member cast_index of castLib source_cast_name
+    put "Target cast name (renamed): " && the name of member cast_index of castLib target_cast_name
+    put
+    
+    put "--------------------------------------------------------------------------"
+    put
+    
+    -- increment iterator
+    set i = (i + 1)
+  end repeat
+  
+end startMovie
