@@ -13,11 +13,17 @@ Released November/December 1997, Developed by OutSide Directors Company, publish
 
 # Credits
 
-Nosamu - Director hacking
-
-Xen - Image edits/translations
+Airi Aoki - Image transcriptions/translations
 
 Elphive - Image edits/translations
+
+FELON - Image edits
+
+Nosamu - Director hacking
+
+PonFanXP - Asset rips
+
+Xen - Image edits/translations
 
 
 # Updates
