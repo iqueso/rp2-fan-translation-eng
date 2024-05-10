@@ -13,9 +13,9 @@ Released November/December 1997, Developed by OutSide Directors Company, publish
 
 # Credits
 
-Airi Aoki - Image transcriptions/translations
+Airi Aoki - Translations and transcriptions
 
-Elphive - Image edits/translations
+Elphive - Image edits and translations
 
 FELON - Image edits
 
@@ -23,7 +23,9 @@ Nosamu - Director hacking
 
 PonFanXP - Asset rips
 
-Xen - Image edits/translations
+Shrimpai - English translation proofreading
+
+Xen - Image edits and translations
 
 
 # Updates
@@ -31,6 +33,8 @@ Xen - Image edits/translations
 **June 10, 2023:** Repo created, first cast edits/translations being added to game.
 
 **April 28, 2024:** First cast replaced using cast-replacement script. More frequent updates to come (hopefully).
+
+**May 10, 2024:** Written translations and transcriptions for some casts are complete and awaiting review. 
 
 # Mentions
 
