@@ -8,7 +8,7 @@ Folder structure mirrors that of the game.
 
 ## Asset Rip Checklist
 
-### Copied from `tree` commnd in Windows 10 `cmd`.
+### Copied from `tree` command in Windows 10 `cmd`.
 
 -   AKIKO.CXT
 -   BANA.CXT
