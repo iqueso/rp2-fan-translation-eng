@@ -33,7 +33,9 @@ Xen - Image edits/translations
 
 **June 10, 2023:** Repo created, first cast edits/translations being added to game.
 
-**April 28, 2024:** First cast replaced using cast-replacement script. More frequent updates to come (hopefully).
+**April 28, 2024:** First cast replaced using cast-replacement script.
+
+**April 13, 2025:** Work continuing on transcriptions and translations. Most assets are ripped and organized, and will be merged soon. Production tracker created to better reflect progress.
 
 # Mentions
 
