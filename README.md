@@ -8,7 +8,7 @@ Released November/December 1997, Developed by OutSide Directors Company, publish
 
 # About
 
-*Roly-Polys' World Tour* (*Roly-Polys' 2*, or *RP2* as referred to in this repo) is made with Macromedia Director 5. This translation works by modifying cast members in cast (*.cxt*) files using Director 5. We are replacing cast member images containing Japanese text with modified images with English text. We then replace the original cast member file (*.cxt*), with our own cast member file. The game will then play our new cast file after replacing the original cast file with it.
+*Roly-Polys' World Tour* (*Roly-Polys' 2*, or *RP2* as referred to in this repo) is made with Macromedia Director 5. We are able to open "protected" (*.cxt*) cast files in Director. We replace cast member images containing Japanese text with modified images with English text. We then replace the original cast member file (*.cxt*), with our own cast member file. After taking into consideration the original assets' location and "registration point" values, as well as the name of the cast member, the game will use our modified file as if it were the original. We have written scripts to automate this process (See *scripts* directory).
 
 [Production Tracker Sheet](https://docs.google.com/spreadsheets/d/1rDUvVNyJFY7sBMd5NChTiR--YQn5wpvBL3TT5icy7fo/edit?gid=0#gid=0)
 
