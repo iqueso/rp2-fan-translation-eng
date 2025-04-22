@@ -37,6 +37,8 @@ Xen - Image edits/translations
 
 **April 13, 2025:** Work continuing on transcriptions and translations. Most assets are ripped and organized, and will be merged soon. Production tracker created to better reflect progress.
 
+**April 21, 2025:** All assets are ripped and sorted. All files containing Japanese text have been identified in the [Production Tracker Sheet](https://docs.google.com/spreadsheets/d/1rDUvVNyJFY7sBMd5NChTiR--YQn5wpvBL3TT5icy7fo/edit?gid=0#gid=0).
+
 # Mentions
 
 ProjectorRays has been an extremely useful tool for understanding how casts and scripts are assembled.
